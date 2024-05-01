@@ -1,0 +1,2 @@
+f = input('Escreva uma frase: ').strip().upper().replace(' ','')
+print('A letra A aparece {} vezes\nEla aparece primeiro na posição de número {}\nE por ultimo na posição {}'.format(f.count('A'),f.find('A')+1,f.rfind('A') +1))

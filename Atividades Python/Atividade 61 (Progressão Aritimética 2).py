@@ -1,0 +1,10 @@
+p1 = int(input('Qual o seu primeiro termo: '))
+r = int(input('Qual a razão: '))
+c = p1
+cont = 0
+print('{} -> '.format(p1),end='')
+while cont <=10 :
+    c += r
+    cont += 1
+    print('{} -> '.format(c),end='')
+print('FIM',end='')
